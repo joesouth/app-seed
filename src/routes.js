@@ -1,6 +1,8 @@
 import Home from './views/Home.vue'
 import Login from './views/Login.vue'
 import About from './views/About.vue'
+import Admin from './views/Admin.vue'
+
 
 export default [
   {
@@ -17,5 +19,11 @@ export default [
     path: '/about',
     name: 'about',
     component: About
+  }
+  ,
+  {
+    path: '/admin',
+    name: 'admin',
+    component: Admin
   }
 ]

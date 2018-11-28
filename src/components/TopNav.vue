@@ -19,17 +19,16 @@
           <a class="navbar-item" href="/docs">Docs</a>
 
         </div>
-        <!-- <div class="navbar-item has-dropdown is-hoverable">
+        <div class="navbar-item has-dropdown is-hoverable">
           <div class="navbar-link">About</div>
           <div class="navbar-dropdown"> <a class="navbar-item">Vision, Mission, and Values</a> <a class="navbar-item">Course Overview</a> <a class="navbar-item">History and Vision</a> </div>
         </div>
         <a class="navbar-item " href="/FindAClass.aspx">Classes</a>
-        <router-link class="navbar-item " to="/">Alumni</router-link> -->
+        <router-link class="navbar-item " to="/">Alumni</router-link>
         <router-link class="navbar-item active" to="/login">Sign In</router-link>
         <br><br>
       </div>
     </div>
-  </div>
 </nav>
 </template>
 
